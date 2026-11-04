@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 350" width="100%" height="100%" role="img" aria-label="Beyond the Surface Layer — 4 Pillars and Research Radar">
+  <defs>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      @keyframes pulseIcon {
+        0%, 100% { stroke-opacity: 0.35; fill-opacity: 0.08; }
+        50% { stroke-opacity: 0.9; fill-opacity: 0.22; }
+      }
+      .icon-box-1 { animation: pulseIcon 3.2s ease-in-out infinite; }
+      .icon-box-2 { animation: pulseIcon 3.2s ease-in-out infinite 0.8s; }
+      .icon-box-3 { animation: pulseIcon 3.2s ease-in-out infinite 1.6s; }
+      .icon-box-4 { animation: pulseIcon 3.2s ease-in-out infinite 2.4s; }
+    </style>
+  </defs>
+
+  <!-- 4 Pillar Grid Shell -->
+  <rect width="1120" height="252" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+  <line x1="280" y1="0" x2="280" y2="252" stroke="#363D44" stroke-width="1"/>
+  <line x1="560" y1="0" x2="560" y2="252" stroke="#363D44" stroke-width="1"/>
+  <line x1="840" y1="0" x2="840" y2="252" stroke="#363D44" stroke-width="1"/>
+
+  <!-- Pillar 01 -->
+  <g transform="translate(0, 0)">
+    <rect class="icon-box-1" x="24" y="24" width="38" height="38" rx="4" fill="#F05A28" stroke="#F05A28" stroke-width="1.2"/>
+    <text x="43" y="50" text-anchor="middle" class="mono" font-size="20" font-weight="800" fill="#F05A28">✳</text>
+    <text x="24" y="88" class="mono" font-size="8" font-weight="800" fill="#8D949C" letter-spacing="1.5">01 / INTELLIGENCE</text>
+    <text x="24" y="114" class="sans" font-size="17" font-weight="800" fill="#FFFFFF" letter-spacing="-0.4">AI &amp; Machine Learning</text>
+    <text x="24" y="140" class="sans" font-size="11" fill="#ADB3B9">Learning how models work, how to</text>
+    <text x="24" y="158" class="sans" font-size="11" fill="#ADB3B9">train and evaluate them, and how to</text>
+    <text x="24" y="176" class="sans" font-size="11" fill="#ADB3B9">move beyond demos into real systems.</text>
+    <line x1="24" y1="208" x2="256" y2="208" stroke="#2F363D" stroke-width="1"/>
+    <text x="24" y="228" class="mono" font-size="7.5" font-weight="800" fill="#F05A28" letter-spacing="1.3">ML MODELS · SLMs · INFERENCE</text>
+  </g>
+
+  <!-- Pillar 02 -->
+  <g transform="translate(280, 0)">
+    <rect class="icon-box-2" x="24" y="24" width="38" height="38" rx="4" fill="#F05A28" stroke="#F05A28" stroke-width="1.2"/>
+    <text x="43" y="49" text-anchor="middle" class="mono" font-size="19" font-weight="800" fill="#F05A28">⌖</text>
+    <text x="24" y="88" class="mono" font-size="8" font-weight="800" fill="#8D949C" letter-spacing="1.5">02 / PERCEPTION</text>
+    <text x="24" y="114" class="sans" font-size="17" font-weight="800" fill="#FFFFFF" letter-spacing="-0.4">Computer Vision</text>
+    <text x="24" y="140" class="sans" font-size="11" fill="#ADB3B9">Working with visual telemetry, multi-</text>
+    <text x="24" y="158" class="sans" font-size="11" fill="#ADB3B9">object tracking, and extracting</text>
+    <text x="24" y="176" class="sans" font-size="11" fill="#ADB3B9">calibrated signals from live scenes.</text>
+    <line x1="24" y1="208" x2="256" y2="208" stroke="#2F363D" stroke-width="1"/>
+    <text x="24" y="228" class="mono" font-size="7.5" font-weight="800" fill="#F05A28" letter-spacing="1.3">RT-DETRv2 · BYTETRACK · CIELAB</text>
+  </g>
+
+  <!-- Pillar 03 -->
+  <g transform="translate(560, 0)">
+    <rect class="icon-box-3" x="24" y="24" width="38" height="38" rx="4" fill="#F05A28" stroke="#F05A28" stroke-width="1.2"/>
+    <text x="43" y="49" text-anchor="middle" class="mono" font-size="18" font-weight="800" fill="#F05A28">⌘</text>
+    <text x="24" y="88" class="mono" font-size="8" font-weight="800" fill="#8D949C" letter-spacing="1.5">03 / FOUNDATIONS</text>
+    <text x="24" y="114" class="sans" font-size="17" font-weight="800" fill="#FFFFFF" letter-spacing="-0.4">Systems &amp; Performance</text>
+    <text x="24" y="140" class="sans" font-size="11" fill="#ADB3B9">Exploring what sits below the UI:</text>
+    <text x="24" y="158" class="sans" font-size="11" fill="#ADB3B9">inference runtimes, hypertables,</text>
+    <text x="24" y="176" class="sans" font-size="11" fill="#ADB3B9">data structures, and low-level speed.</text>
+    <line x1="24" y1="208" x2="256" y2="208" stroke="#2F363D" stroke-width="1"/>
+    <text x="24" y="228" class="mono" font-size="7.5" font-weight="800" fill="#F05A28" letter-spacing="1.3">C++ · TIMESCALEDB · SYSTEMS</text>
+  </g>
+
+  <!-- Pillar 04 -->
+  <g transform="translate(840, 0)">
+    <rect class="icon-box-4" x="24" y="24" width="38" height="38" rx="4" fill="#F05A28" stroke="#F05A28" stroke-width="1.2"/>
+    <text x="43" y="49" text-anchor="middle" class="mono" font-size="19" font-weight="800" fill="#F05A28">↗</text>
+    <text x="24" y="88" class="mono" font-size="8" font-weight="800" fill="#8D949C" letter-spacing="1.5">04 / APPLICATION</text>
+    <text x="24" y="114" class="sans" font-size="17" font-weight="800" fill="#FFFFFF" letter-spacing="-0.4">Product Engineering</text>
+    <text x="24" y="140" class="sans" font-size="11" fill="#ADB3B9">Designing and building precision</text>
+    <text x="24" y="158" class="sans" font-size="11" fill="#ADB3B9">interfaces that make complex</text>
+    <text x="24" y="176" class="sans" font-size="11" fill="#ADB3B9">technology accessible and useful.</text>
+    <line x1="24" y1="208" x2="256" y2="208" stroke="#2F363D" stroke-width="1"/>
+    <text x="24" y="228" class="mono" font-size="7.5" font-weight="800" fill="#F05A28" letter-spacing="1.3">REACT 19 · TYPESCRIPT · WEBGL2</text>
+  </g>
+
+  <!-- Research Radar Band -->
+  <rect x="0" y="272" width="1120" height="76" rx="8" fill="#171A1E" stroke="#363D44" stroke-width="1"/>
+  <text x="24" y="306" class="mono" font-size="8.5" font-weight="800" fill="#F05A28" letter-spacing="1.6">ON THE RESEARCH RADAR</text>
+  <text x="24" y="326" class="sans" font-size="9" fill="#8D949C">Active exploration tracks</text>
+
+  <rect x="220" y="294" width="176" height="30" rx="4" fill="#23282E" stroke="#3B424A" stroke-width="1"/><text x="308" y="313" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Custom SLM inference engines</text>
+  <rect x="406" y="294" width="166" height="30" rx="4" fill="#23282E" stroke="#3B424A" stroke-width="1"/><text x="489" y="313" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Low-bit model quantization</text>
+  <rect x="582" y="294" width="176" height="30" rx="4" fill="#23282E" stroke="#3B424A" stroke-width="1"/><text x="670" y="313" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Multilingual niche fine-tuning</text>
+  <rect x="768" y="294" width="164" height="30" rx="4" fill="#23282E" stroke="#3B424A" stroke-width="1"/><text x="850" y="313" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Local-first AI observability</text>
+  <rect x="942" y="294" width="158" height="30" rx="4" fill="#23282E" stroke="#3B424A" stroke-width="1"/><text x="1021" y="313" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Mechanistic interpretability</text>
+</svg>

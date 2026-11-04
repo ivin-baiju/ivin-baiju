@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" width="100%" height="100%" role="img" aria-label="Selected Work and Experiments — Visionlytics, Monarch, ATC Simulation, Small Model Systems">
+  <defs>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes pulseBeacon {
+        0%, 100% { r: 4px; opacity: 1; }
+        50% { r: 7px; opacity: 0.45; }
+      }
+      @keyframes stackPulse {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(5px); }
+      }
+      @keyframes stackPulseAlt {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(-5px); }
+      }
+      .vis-ring-a { transform-origin: 274px 124px; animation: spinCW 22s linear infinite; }
+      .vis-ring-b { transform-origin: 274px 124px; animation: spinCCW 32s linear infinite; }
+      .radar-sweep { transform-origin: 274px 444px; animation: spinCW 6.5s linear infinite; }
+      .beacon { animation: pulseBeacon 2s ease-in-out infinite; }
+      .layer-even { animation: stackPulse 3.6s ease-in-out infinite; }
+      .layer-odd { animation: stackPulseAlt 3.6s ease-in-out infinite; }
+    </style>
+    <linearGradient id="visionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D3DDD0"/>
+      <stop offset="52%" stop-color="#B7C9BD"/>
+      <stop offset="100%" stop-color="#D9DFD6"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8DBB99" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#17252B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ==================== CARD 1: VISIONLYTICS (TOP-LEFT) ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="546" height="324" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+    <!-- Visual Area -->
+    <rect x="1" y="1" width="544" height="174" rx="9" fill="#E8ECE7"/>
+    <text x="20" y="22" class="mono" font-size="8.5" font-weight="800" fill="#263A37" letter-spacing="1.4">V / 001  <tspan opacity="0.65">OPTICAL TELEMETRY · APACHE-2.0 ONNX</tspan></text>
+    <!-- Satellite Viewport -->
+    <rect x="56" y="32" width="434" height="120" fill="url(#visionGrad)" stroke="#9AAFA3" stroke-width="1"/>
+    <!-- Land Polygon -->
+    <polygon points="120,42 260,36 300,58 410,54 460,86 390,115 430,138 280,148 220,128 96,134 75,92" fill="#8DA99A" opacity="0.52"/>
+    <!-- Animated Scan Rings -->
+    <circle class="vis-ring-b" cx="274" cy="92" r="54" fill="none" stroke="#F05A28" stroke-width="1.2" stroke-dasharray="6 5" opacity="0.75"/>
+    <circle class="vis-ring-a" cx="274" cy="92" r="34" fill="none" stroke="#F05A28" stroke-width="1.2" stroke-dasharray="18 6"/>
+    <circle class="beacon" cx="274" cy="92" r="5" fill="#F05A28"/>
+    <line x1="258" y1="92" x2="290" y2="92" stroke="#F05A28" stroke-width="1.2"/>
+    <line x1="274" y1="76" x2="274" y2="108" stroke="#F05A28" stroke-width="1.2"/>
+    <!-- Readouts -->
+    <text x="68" y="48" class="mono" font-size="8" font-weight="800" fill="#263A37">mAP50 / 91.43%</text>
+    <text x="68" y="60" class="mono" font-size="8" font-weight="800" fill="#263A37">mAP50-95 / 85.14%</text>
+    <text x="478" y="48" text-anchor="end" class="mono" font-size="9" font-weight="800" fill="#36594B">60FPS</text>
+    <text x="478" y="144" text-anchor="end" class="mono" font-size="8" font-weight="800" fill="#263A37">CIEDE2000 / 85.71% · MAE 0.00</text>
+    <text x="20" y="167" class="mono" font-size="7.5" font-weight="800" fill="#263A37" opacity="0.7" letter-spacing="1.2">OPTICAL BENCH · v1.0.0</text>
+    <text x="526" y="167" text-anchor="end" class="mono" font-size="7.5" font-weight="800" fill="#263A37" opacity="0.7" letter-spacing="1.2">FRAME → INSIGHT</text>
+
+    <!-- Content Area -->
+    <text x="22" y="198" class="mono" font-size="8" font-weight="800" fill="#8A9299" letter-spacing="1.4">COMPUTER VISION SAAS · MULTI-OBJECT TRACKING</text>
+    <circle cx="402" cy="195" r="3.5" fill="#8FBD9C"/>
+    <text x="412" y="198" class="mono" font-size="8" font-weight="800" fill="#8FBD9C" letter-spacing="1">LIVE PRODUCTION v1.0</text>
+
+    <text x="22" y="228" class="sans" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-0.8">Visionlytics<tspan fill="#F05A28">.</tspan></text>
+    <text x="22" y="250" class="sans" font-size="11" fill="#ADB3B9">Per-frame people count &amp; ByteTrack Re-ID, calibrated RT-DETRv2 &amp; YOLOS ONNX,</text>
+    <text x="22" y="266" class="sans" font-size="11" fill="#ADB3B9">foreground CIELAB/CIEDE2000 garment colour naming, ray-cast zones &amp; Training Studio.</text>
+
+    <!-- Tags -->
+    <rect x="22" y="282" width="106" height="22" rx="3" fill="#262C33"/><text x="75" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">React 19 + WebGL2</text>
+    <rect x="134" y="282" width="122" height="22" rx="3" fill="#262C33"/><text x="195" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Fastify + TimescaleDB</text>
+    <rect x="262" y="282" width="96" height="22" rx="3" fill="#262C33"/><text x="310" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">FastAPI + ONNX</text>
+    <rect x="364" y="282" width="84" height="22" rx="3" fill="#262C33"/><text x="406" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">CIELAB ΔE00</text>
+    <rect x="454" y="282" width="70" height="22" rx="3" fill="#F05A28" fill-opacity="0.16" stroke="#F05A28" stroke-width="0.8"/><text x="489" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="800" fill="#F05A28">LIVE ↗</text>
+  </g>
+
+  <!-- ==================== CARD 2: MONARCH (TOP-RIGHT) ==================== -->
+  <g transform="translate(574, 0)">
+    <rect width="546" height="324" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+    <rect x="1" y="1" width="544" height="174" rx="9" fill="#1C232B"/>
+    <text x="20" y="22" class="mono" font-size="8.5" font-weight="800" fill="#E2E8ED" letter-spacing="1.4">M / 002  <tspan opacity="0.65">GEOSPATIAL INTELLIGENCE CONSOLE</tspan></text>
+
+    <!-- Monarch UI Box -->
+    <rect x="52" y="32" width="442" height="120" fill="#1B242C" stroke="#53616B" stroke-width="1"/>
+    <line x1="90" y1="32" x2="90" y2="152" stroke="#39444D" stroke-width="1"/>
+    <text x="71" y="50" text-anchor="middle" class="sans" font-size="13" font-weight="800" fill="#F05A28">m.</text>
+    <rect x="66" y="60" width="10" height="10" rx="2" fill="#F05A28"/>
+    <rect x="66" y="78" width="10" height="10" rx="2" fill="none" stroke="#74838B" stroke-width="1"/>
+    <rect x="66" y="96" width="10" height="10" rx="2" fill="none" stroke="#74838B" stroke-width="1"/>
+
+    <text x="104" y="46" class="mono" font-size="7.5" font-weight="700" fill="#B3C0C7" letter-spacing="1.2">MONARCH / OVERVIEW</text>
+    <text x="480" y="46" text-anchor="end" class="mono" font-size="7.5" font-weight="800" fill="#8FBD9C">● LIVE TELEMETRY</text>
+
+    <!-- Map Canvas -->
+    <rect x="104" y="52" width="376" height="64" fill="#222F36" stroke="#40525A" stroke-width="1"/>
+    <line x1="150" y1="100" x2="420" y2="62" stroke="#F05A28" stroke-width="2"/>
+    <circle class="beacon" cx="150" cy="100" r="4" fill="#F1BD7A"/>
+    <circle class="beacon" cx="275" cy="82" r="4" fill="#F1BD7A"/>
+    <circle class="beacon" cx="420" cy="62" r="4" fill="#F05A28"/>
+    <text x="472" y="102" text-anchor="end" class="mono" font-size="7" fill="#A4B5BA">28° 27' 18" N · 77° 30' 09" E</text>
+
+    <!-- Stat Boxes -->
+    <rect x="104" y="122" width="120" height="24" fill="#28343C"/><text x="112" y="132" class="mono" font-size="6" fill="#97A4AA">ACTIVE LAYERS</text><text x="214" y="140" text-anchor="end" class="mono" font-size="10" font-weight="800" fill="#FFFFFF">08</text>
+    <rect x="232" y="122" width="120" height="24" fill="#28343C"/><text x="240" y="132" class="mono" font-size="6" fill="#97A4AA">DATA SOURCES</text><text x="342" y="140" text-anchor="end" class="mono" font-size="10" font-weight="800" fill="#FFFFFF">12</text>
+    <rect x="360" y="122" width="120" height="24" fill="#28343C"/><text x="368" y="132" class="mono" font-size="6" fill="#97A4AA">STATUS</text><text x="470" y="140" text-anchor="end" class="mono" font-size="10" font-weight="800" fill="#8FBD9C">READY</text>
+
+    <text x="20" y="167" class="mono" font-size="7.5" font-weight="800" fill="#E2E8ED" opacity="0.65" letter-spacing="1.2">SPATIAL SYSTEMS · 02</text>
+    <text x="526" y="167" text-anchor="end" class="mono" font-size="7.5" font-weight="800" fill="#E2E8ED" opacity="0.65" letter-spacing="1.2">SEE THE BIGGER PICTURE</text>
+
+    <!-- Content Area -->
+    <text x="22" y="198" class="mono" font-size="8" font-weight="800" fill="#8A9299" letter-spacing="1.4">GEOSPATIAL · PRODUCT ENGINEERING</text>
+    <circle cx="430" cy="195" r="3.5" fill="#8FBD9C"/>
+    <text x="440" y="198" class="mono" font-size="8" font-weight="800" fill="#8FBD9C" letter-spacing="1">IN DEVELOPMENT</text>
+
+    <text x="22" y="228" class="sans" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-0.8">MONARCH<tspan fill="#F05A28">.</tspan></text>
+    <text x="22" y="250" class="sans" font-size="11" fill="#ADB3B9">Dark-first geospatial intelligence console built around georeferenced imagery,</text>
+    <text x="22" y="266" class="sans" font-size="11" fill="#ADB3B9">spatial layer bounds, multi-source telemetry feeds, and high-density navigation.</text>
+
+    <rect x="22" y="282" width="66" height="22" rx="3" fill="#262C33"/><text x="55" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">React</text>
+    <rect x="94" y="282" width="84" height="22" rx="3" fill="#262C33"/><text x="136" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">TypeScript</text>
+    <rect x="184" y="282" width="98" height="22" rx="3" fill="#262C33"/><text x="233" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Framer Motion</text>
+    <rect x="288" y="282" width="114" height="22" rx="3" fill="#262C33"/><text x="345" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Geospatial Layers</text>
+  </g>
+
+  <!-- ==================== CARD 3: ATC SIMULATION (BOTTOM-LEFT) ==================== -->
+  <g transform="translate(0, 352)">
+    <rect width="546" height="324" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+    <rect x="1" y="1" width="544" height="174" rx="9" fill="#17252B"/>
+    <text x="20" y="22" class="mono" font-size="8.5" font-weight="800" fill="#E0EDF0" letter-spacing="1.4">S / 003  <tspan opacity="0.65">SIMULATION SYSTEMS</tspan></text>
+
+    <!-- Radar Circle -->
+    <circle cx="274" cy="92" r="64" fill="url(#radarGlow)" stroke="#52727B" stroke-width="1.2"/>
+    <circle cx="274" cy="92" r="44" fill="none" stroke="#6E9490" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="274" cy="92" r="22" fill="none" stroke="#6E9490" stroke-opacity="0.4" stroke-width="1"/>
+    <line x1="210" y1="92" x2="338" y2="92" stroke="#6E9490" stroke-opacity="0.35" stroke-width="1"/>
+    <line x1="274" y1="28" x2="274" y2="156" stroke="#6E9490" stroke-opacity="0.35" stroke-width="1"/>
+
+    <!-- Rotating Radar Sweep Line -->
+    <g transform="translate(274, 92)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+        <line x1="0" y1="0" x2="45" y2="-45" stroke="#8FBD9C" stroke-width="2"/>
+        <path d="M 0 0 L 45 -45 A 64 64 0 0 0 18 -61 Z" fill="#8FBD9C" fill-opacity="0.24"/>
+      </g>
+    </g>
+
+    <!-- Aircraft Blips -->
+    <circle class="beacon" cx="248" cy="70" r="3" fill="#FFB16F"/>
+    <text x="172" y="68" class="mono" font-size="7.5" font-weight="700" fill="#A6C5C8">AAL 204 ✈</text>
+    <circle class="beacon" cx="304" cy="98" r="3" fill="#FFB16F"/>
+    <text x="316" y="101" class="mono" font-size="7.5" font-weight="700" fill="#A6C5C8">✈ UAE 818</text>
+    <circle class="beacon" cx="282" cy="128" r="3" fill="#F05A28"/>
+    <text x="292" y="136" class="mono" font-size="7.5" font-weight="700" fill="#F05A28">✈ AI 672</text>
+
+    <text x="20" y="167" class="mono" font-size="7.5" font-weight="800" fill="#E0EDF0" opacity="0.65" letter-spacing="1.2">TRAFFIC / SIMULATED</text>
+    <text x="526" y="167" text-anchor="end" class="mono" font-size="7.5" font-weight="800" fill="#E0EDF0" opacity="0.65" letter-spacing="1.2">DETECT · DECIDE · DIRECT</text>
+
+    <!-- Content Area -->
+    <text x="22" y="198" class="mono" font-size="8" font-weight="800" fill="#8A9299" letter-spacing="1.4">AI · REAL-TIME SIMULATION</text>
+    <circle cx="408" cy="195" r="3.5" fill="#D9B36B"/>
+    <text x="418" y="198" class="mono" font-size="8" font-weight="800" fill="#D9B36B" letter-spacing="1">CONCEPT / PROTOTYPE</text>
+
+    <text x="22" y="228" class="sans" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-0.8">ATC Simulation<tspan fill="#F05A28">.</tspan></text>
+    <text x="22" y="250" class="sans" font-size="11" fill="#ADB3B9">AI air-traffic-control simulation concept: replay flight traffic, inject close-call</text>
+    <text x="22" y="266" class="sans" font-size="11" fill="#ADB3B9">conflict scenarios, detect separation violations, and test autonomous controller vectors.</text>
+
+    <rect x="22" y="282" width="78" height="22" rx="3" fill="#262C33"/><text x="61" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">AI Systems</text>
+    <rect x="106" y="282" width="82" height="22" rx="3" fill="#262C33"/><text x="147" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Simulation</text>
+    <rect x="194" y="282" width="84" height="22" rx="3" fill="#262C33"/><text x="236" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Flight Data</text>
+    <rect x="284" y="282" width="110" height="22" rx="3" fill="#262C33"/><text x="339" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Decision Support</text>
+  </g>
+
+  <!-- ==================== CARD 4: SMALL MODEL SYSTEMS (BOTTOM-RIGHT) ==================== -->
+  <g transform="translate(574, 352)">
+    <rect width="546" height="324" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+    <rect x="1" y="1" width="544" height="174" rx="9" fill="#24222B"/>
+    <text x="20" y="22" class="mono" font-size="8.5" font-weight="800" fill="#EEE7F4" letter-spacing="1.4">L / 004  <tspan opacity="0.65">MODEL SYSTEMS LAB · APPLE SILICON M4</tspan></text>
+
+    <!-- Animated Stack Layers -->
+    <g class="layer-even">
+      <rect x="136" y="34" width="268" height="24" rx="3" fill="#353040" stroke="#857795" stroke-width="1"/>
+      <text x="148" y="49" class="mono" font-size="8" fill="#A99BB7">01</text>
+      <text x="172" y="49" class="mono" font-size="8.5" font-weight="800" fill="#EEE7F4" letter-spacing="1.2">HAND-WRITTEN GQA / ROPE / SWIGLU</text>
+    </g>
+    <g class="layer-odd">
+      <rect x="146" y="63" width="268" height="24" rx="3" fill="#353040" stroke="#9B8BB3" stroke-width="1"/>
+      <text x="158" y="78" class="mono" font-size="8" fill="#A99BB7">02</text>
+      <text x="182" y="78" class="mono" font-size="8.5" font-weight="800" fill="#EEE7F4" letter-spacing="1.2">INT8 / INT4 QUANTIZATION · 4.13 GB</text>
+    </g>
+    <g class="layer-even">
+      <rect x="130" y="92" width="268" height="24" rx="3" fill="#353040" stroke="#7C91A5" stroke-width="1"/>
+      <text x="142" y="107" class="mono" font-size="8" fill="#A99BB7">03</text>
+      <text x="166" y="107" class="mono" font-size="8.5" font-weight="800" fill="#EEE7F4" letter-spacing="1.2">48.3 TPS FP16 · 1.00000179 PARITY</text>
+    </g>
+    <g class="layer-odd">
+      <rect x="142" y="121" width="268" height="24" rx="3" fill="#353040" stroke="#B18C84" stroke-width="1"/>
+      <text x="154" y="136" class="mono" font-size="8" fill="#A99BB7">04</text>
+      <text x="178" y="136" class="mono" font-size="8.5" font-weight="800" fill="#EEE7F4" letter-spacing="1.2">LOCAL-FIRST OBSERVABILITY &amp; KV</text>
+    </g>
+
+    <text x="20" y="167" class="mono" font-size="7.5" font-weight="800" fill="#EEE7F4" opacity="0.65" letter-spacing="1.2">RESEARCH NOTES · 04</text>
+    <text x="526" y="167" text-anchor="end" class="mono" font-size="7.5" font-weight="800" fill="#EEE7F4" opacity="0.65" letter-spacing="1.2">SMALL MODELS. BIG IDEAS.</text>
+
+    <!-- Content Area -->
+    <text x="22" y="198" class="mono" font-size="8" font-weight="800" fill="#8A9299" letter-spacing="1.4">LLMs · INFERENCE · INTERPRETABILITY</text>
+    <circle cx="424" cy="195" r="3.5" fill="#8EBAE0"/>
+    <text x="434" y="198" class="mono" font-size="8" font-weight="800" fill="#8EBAE0" letter-spacing="1">19/19 TESTS PASSING</text>
+
+    <text x="22" y="228" class="sans" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-0.8">Custom SLM Inference<tspan fill="#F05A28">.</tspan></text>
+    <text x="22" y="250" class="sans" font-size="11" fill="#ADB3B9">From-scratch PyTorch transformer runtime for Apple Silicon M4 — streaming safetensors</text>
+    <text x="22" y="266" class="sans" font-size="11" fill="#ADB3B9">layer-by-layer to fit Qwen2.5-3B in 4.13 GB VRAM with 48.3 tps on Qwen2.5-0.5B.</text>
+
+    <rect x="22" y="282" width="66" height="22" rx="3" fill="#262C33"/><text x="55" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">PyTorch</text>
+    <rect x="94" y="282" width="90" height="22" rx="3" fill="#262C33"/><text x="139" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Apple M4 MPS</text>
+    <rect x="190" y="282" width="90" height="22" rx="3" fill="#262C33"/><text x="235" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">Quantization</text>
+    <rect x="286" y="282" width="110" height="22" rx="3" fill="#262C33"/><text x="341" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#D1D5DA">RoPE / GQA / KV</text>
+    <rect x="402" y="282" width="122" height="22" rx="3" fill="#F05A28" fill-opacity="0.16" stroke="#F05A28" stroke-width="0.8"/><text x="463" y="296" text-anchor="middle" class="mono" font-size="8" font-weight="800" fill="#F05A28">REPO ↗</text>
+  </g>
+</svg>

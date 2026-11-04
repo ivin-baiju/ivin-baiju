@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 460" width="100%" height="100%" role="img" aria-label="About Ivin Baiju and The Working Toolkit">
+  <defs>
+    <pattern id="aboutGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#7B858F" stroke-width="0.6" stroke-opacity="0.14"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .cond { font-family: 'Arial Narrow', Impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      @keyframes stampGlow {
+        0%, 100% { stroke: #535B63; }
+        50% { stroke: #F05A28; }
+      }
+      .stamp-box { animation: stampGlow 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ==================== LEFT PANEL: ABOUT ME (03) ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="510" height="460" rx="10" fill="#171A1E" stroke="#363D44" stroke-width="1.2"/>
+    <rect width="510" height="460" rx="10" fill="url(#aboutGrid)"/>
+
+    <text x="28" y="36" class="mono" font-size="9" font-weight="800" fill="#B6BBC0" letter-spacing="1.8"><tspan fill="#F05A28" font-size="12">03</tspan>   A LITTLE CONTEXT · ABOUT ME</text>
+
+    <text x="28" y="84" class="sans" font-size="38" font-weight="900" fill="#FFFFFF" letter-spacing="-1.5">Curious by <tspan class="cond" fill="#F05A28">NATURE.</tspan></text>
+    <text x="28" y="128" class="sans" font-size="38" font-weight="900" fill="#FFFFFF" letter-spacing="-1.5">Engineer by <tspan class="cond" fill="#F05A28">PRACTICE.</tspan></text>
+
+    <text x="28" y="168" class="sans" font-size="13.5" font-weight="700" fill="#FFFFFF">I’m Ivin — a computer science enthusiast drawn to the</text>
+    <text x="28" y="188" class="sans" font-size="13.5" font-weight="700" fill="#FFFFFF">craft of making technology work in the real world.</text>
+
+    <text x="28" y="218" class="sans" font-size="11.5" fill="#ADB3B9">I enjoy moving between ideas and implementation: understanding a problem,</text>
+    <text x="28" y="236" class="sans" font-size="11.5" fill="#ADB3B9">getting close to the underlying technology, experimenting with an approach,</text>
+    <text x="28" y="254" class="sans" font-size="11.5" fill="#ADB3B9">and refining it until it feels right. My current work connects explorations across</text>
+    <text x="28" y="272" class="sans" font-size="11.5" fill="#FFFFFF" font-weight="700">VISIONLYTICS, SLM INFERENCE, MONARCH, NEXUS, and PRIMUS.</text>
+
+    <!-- 2x2 Facts Table -->
+    <line x1="28" y1="296" x2="482" y2="296" stroke="#434A51" stroke-width="1"/>
+    <line x1="28" y1="344" x2="482" y2="344" stroke="#363D44" stroke-width="1"/>
+    <line x1="28" y1="392" x2="482" y2="392" stroke="#434A51" stroke-width="1"/>
+
+    <text x="28" y="313" class="mono" font-size="7.5" font-weight="800" fill="#858E97" letter-spacing="1.4">01 / BASE</text>
+    <text x="28" y="331" class="sans" font-size="12" font-weight="700" fill="#F4F5F6">India</text>
+
+    <text x="260" y="313" class="mono" font-size="7.5" font-weight="800" fill="#858E97" letter-spacing="1.4">02 / EDUCATION</text>
+    <text x="260" y="331" class="sans" font-size="12" font-weight="700" fill="#F4F5F6">Bennett University (2025—2029)</text>
+
+    <text x="28" y="361" class="mono" font-size="7.5" font-weight="800" fill="#858E97" letter-spacing="1.4">03 / TRACK</text>
+    <text x="28" y="379" class="sans" font-size="12" font-weight="700" fill="#F4F5F6">B.Tech Computer Science</text>
+
+    <text x="260" y="361" class="mono" font-size="7.5" font-weight="800" fill="#858E97" letter-spacing="1.4">04 / SPOKEN LANGUAGES</text>
+    <text x="260" y="379" class="sans" font-size="12" font-weight="700" fill="#F4F5F6">English · Hindi · Malayalam</text>
+
+    <!-- Stamp -->
+    <rect class="stamp-box" x="28" y="406" width="38" height="38" fill="none" stroke="#535B63" stroke-width="1.2"/>
+    <text x="47" y="431" text-anchor="middle" class="cond" font-size="20" font-weight="800" fill="#F05A28">IB</text>
+    <text x="80" y="429" class="mono" font-size="8.5" font-weight="800" fill="#858D96" letter-spacing="1.8">THINK · BUILD · REPEAT</text>
+  </g>
+
+  <!-- ==================== RIGHT PANEL: THE WORKING TOOLKIT (04) ==================== -->
+  <g transform="translate(534, 0)">
+    <rect width="586" height="460" rx="10" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+
+    <text x="28" y="36" class="mono" font-size="9" font-weight="800" fill="#B6BBC0" letter-spacing="1.8"><tspan fill="#F05A28" font-size="12">04</tspan>   THE WORKING TOOLKIT · TOOLS FOR THE CURIOUS</text>
+    <text x="558" y="36" text-anchor="end" class="mono" font-size="18" font-weight="800" fill="#F05A28" opacity="0.45">{ }</text>
+
+    <!-- Row 01: Languages -->
+    <line x1="28" y1="54" x2="558" y2="54" stroke="#363D44" stroke-width="1"/>
+    <text x="28" y="84" class="mono" font-size="13" font-weight="800" fill="#F05A28">01</text>
+    <text x="54" y="84" class="sans" font-size="12.5" font-weight="800" fill="#FFFFFF">Languages</text>
+    <g transform="translate(175, 66)">
+      <rect x="0" y="0" width="48" height="24" rx="3" fill="#262C33"/><text x="24" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">C++</text>
+      <rect x="54" y="0" width="60" height="24" rx="3" fill="#262C33"/><text x="84" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Python</text>
+      <rect x="120" y="0" width="50" height="24" rx="3" fill="#262C33"/><text x="145" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Java</text>
+      <rect x="176" y="0" width="76" height="24" rx="3" fill="#262C33"/><text x="214" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">TypeScript</text>
+      <rect x="258" y="0" width="46" height="24" rx="3" fill="#262C33"/><text x="281" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">SQL</text>
+      <rect x="310" y="0" width="52" height="24" rx="3" fill="#262C33"/><text x="336" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">GLSL</text>
+    </g>
+
+    <!-- Row 02: Development -->
+    <line x1="28" y1="106" x2="558" y2="106" stroke="#363D44" stroke-width="1"/>
+    <text x="28" y="136" class="mono" font-size="13" font-weight="800" fill="#F05A28">02</text>
+    <text x="54" y="136" class="sans" font-size="12.5" font-weight="800" fill="#FFFFFF">Development</text>
+    <g transform="translate(175, 118)">
+      <rect x="0" y="0" width="66" height="24" rx="3" fill="#262C33"/><text x="33" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">React 19</text>
+      <rect x="72" y="0" width="46" height="24" rx="3" fill="#262C33"/><text x="95" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Vite</text>
+      <rect x="124" y="0" width="58" height="24" rx="3" fill="#262C33"/><text x="153" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Fastify</text>
+      <rect x="188" y="0" width="60" height="24" rx="3" fill="#262C33"/><text x="218" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">FastAPI</text>
+      <rect x="254" y="0" width="58" height="24" rx="3" fill="#262C33"/><text x="283" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Node.js</text>
+      <rect x="318" y="0" width="68" height="24" rx="3" fill="#262C33"/><text x="352" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Tailwind</text>
+    </g>
+
+    <!-- Row 03: Data & AI -->
+    <line x1="28" y1="158" x2="558" y2="158" stroke="#363D44" stroke-width="1"/>
+    <text x="28" y="188" class="mono" font-size="13" font-weight="800" fill="#F05A28">03</text>
+    <text x="54" y="188" class="sans" font-size="12.5" font-weight="800" fill="#FFFFFF">Data &amp; AI</text>
+    <g transform="translate(175, 170)">
+      <rect x="0" y="0" width="90" height="24" rx="3" fill="#262C33"/><text x="45" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">ONNX Runtime</text>
+      <rect x="96" y="0" width="64" height="24" rx="3" fill="#262C33"/><text x="128" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">PyTorch</text>
+      <rect x="166" y="0" width="128" height="24" rx="3" fill="#262C33"/><text x="230" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">RT-DETRv2 &amp; ByteTrack</text>
+      <rect x="300" y="0" width="84" height="24" rx="3" fill="#262C33"/><text x="342" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">CIELAB ΔE00</text>
+    </g>
+
+    <!-- Row 04: Databases & Infra -->
+    <line x1="28" y1="210" x2="558" y2="210" stroke="#363D44" stroke-width="1"/>
+    <text x="28" y="240" class="mono" font-size="13" font-weight="800" fill="#F05A28">04</text>
+    <text x="54" y="240" class="sans" font-size="12.5" font-weight="800" fill="#FFFFFF">DBs &amp; Infra</text>
+    <g transform="translate(175, 222)">
+      <rect x="0" y="0" width="90" height="24" rx="3" fill="#262C33"/><text x="45" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">PostgreSQL 16</text>
+      <rect x="96" y="0" width="84" height="24" rx="3" fill="#262C33"/><text x="138" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">TimescaleDB</text>
+      <rect x="186" y="0" width="96" height="24" rx="3" fill="#262C33"/><text x="234" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Redis &amp; BullMQ</text>
+      <rect x="288" y="0" width="46" height="24" rx="3" fill="#262C33"/><text x="311" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">S3</text>
+      <rect x="340" y="0" width="52" height="24" rx="3" fill="#262C33"/><text x="366" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Docker</text>
+    </g>
+
+    <!-- Row 05: Engineering Tools -->
+    <line x1="28" y1="262" x2="558" y2="262" stroke="#363D44" stroke-width="1"/>
+    <text x="28" y="292" class="mono" font-size="13" font-weight="800" fill="#F05A28">05</text>
+    <text x="54" y="292" class="sans" font-size="12.5" font-weight="800" fill="#FFFFFF">Eng. Tools</text>
+    <g transform="translate(175, 274)">
+      <rect x="0" y="0" width="84" height="24" rx="3" fill="#262C33"/><text x="42" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Git &amp; GitHub</text>
+      <rect x="90" y="0" width="84" height="24" rx="3" fill="#262C33"/><text x="132" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Google Colab</text>
+      <rect x="180" y="0" width="66" height="24" rx="3" fill="#262C33"/><text x="213" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Logisim</text>
+      <rect x="252" y="0" width="82" height="24" rx="3" fill="#262C33"/><text x="293" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">Icarus Verilog</text>
+      <rect x="340" y="0" width="54" height="24" rx="3" fill="#262C33"/><text x="367" y="15" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#E0E4E8">GTKWave</text>
+    </g>
+
+    <!-- Philosophy Callout Box -->
+    <rect x="28" y="322" width="530" height="114" rx="6" fill="#15181C" stroke="#363D44" stroke-width="1"/>
+    <text x="46" y="346" class="mono" font-size="8" font-weight="800" fill="#929AA2" letter-spacing="1.5">A NOTE ON THE PROCESS</text>
+    <text x="46" y="376" class="sans" font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="-0.6">Understand the <tspan class="cond" fill="#F05A28">WHY.</tspan> Then build the how.</text>
+    <text x="46" y="400" class="sans" font-size="11" fill="#A8AFB6">Tools change. Good fundamentals, clear thinking, and a willingness to</text>
+    <text x="46" y="418" class="sans" font-size="11" fill="#A8AFB6">experiment travel much further.</text>
+    <text x="536" y="418" text-anchor="end" class="mono" font-size="9" font-weight="800" fill="#F05A28">ALWAYS LEARNING ↗</text>
+  </g>
+</svg>

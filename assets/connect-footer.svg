@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 220" width="100%" height="100%" role="img" aria-label="Open Channel — Have an idea worth building?">
+  <defs>
+    <pattern id="connGrid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M 52 0 L 0 0 0 52" fill="none" stroke="#7B858F" stroke-width="0.7" stroke-opacity="0.16"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .cond { font-family: 'Arial Narrow', Impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      @keyframes pulseCTA {
+        0%, 100% { stroke-opacity: 0.5; }
+        50% { stroke-opacity: 1; }
+      }
+      .cta-box { animation: pulseCTA 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1120" height="220" rx="10" fill="#171A1E" stroke="#363D44" stroke-width="1.2"/>
+  <rect width="1120" height="220" rx="10" fill="url(#connGrid)"/>
+
+  <text x="36" y="38" class="mono" font-size="9" font-weight="800" fill="#B6BBC0" letter-spacing="1.8"><tspan fill="#F05A28" font-size="12">06</tspan>   OPEN CHANNEL · LET'S CONNECT</text>
+
+  <text x="36" y="96" class="sans" font-size="46" font-weight="900" fill="#FFFFFF" letter-spacing="-1.8">Have an idea worth <tspan class="cond" fill="#F05A28">BUILDING?</tspan></text>
+  <text x="36" y="128" class="sans" font-size="12.5" fill="#ADB3B9">I’m always interested in thoughtful conversations around AI, computer vision, systems engineering, and ambitious builds.</text>
+
+  <!-- Social Cards Row -->
+  <g transform="translate(36, 146)">
+    <rect class="cta-box" x="0" y="0" width="248" height="44" rx="5" fill="#20252B" stroke="#F05A28" stroke-width="1"/>
+    <text x="18" y="20" class="sans" font-size="11" font-weight="800" fill="#FFFFFF">Portfolio · ivin.in</text>
+    <text x="18" y="34" class="mono" font-size="8.5" fill="#949CA5">https://ivin.in</text>
+    <text x="230" y="27" text-anchor="end" class="mono" font-size="14" font-weight="800" fill="#F05A28">↗</text>
+
+    <rect x="264" y="0" width="248" height="44" rx="5" fill="#20252B" stroke="#454C53" stroke-width="1"/>
+    <text x="282" y="20" class="sans" font-size="11" font-weight="800" fill="#FFFFFF">LinkedIn</text>
+    <text x="282" y="34" class="mono" font-size="8.5" fill="#949CA5">in/ivin-baiju</text>
+    <text x="494" y="27" text-anchor="end" class="mono" font-size="14" font-weight="800" fill="#F05A28">↗</text>
+
+    <rect x="528" y="0" width="248" height="44" rx="5" fill="#20252B" stroke="#454C53" stroke-width="1"/>
+    <text x="546" y="20" class="sans" font-size="11" font-weight="800" fill="#FFFFFF">X / Twitter</text>
+    <text x="546" y="34" class="mono" font-size="8.5" fill="#949CA5">@Gargantuaq1</text>
+    <text x="758" y="27" text-anchor="end" class="mono" font-size="14" font-weight="800" fill="#F05A28">↗</text>
+
+    <rect x="792" y="0" width="256" height="44" rx="5" fill="#20252B" stroke="#454C53" stroke-width="1"/>
+    <text x="810" y="20" class="sans" font-size="11" font-weight="800" fill="#FFFFFF">Instagram</text>
+    <text x="810" y="34" class="mono" font-size="8.5" fill="#949CA5">@l_lvin_18</text>
+    <text x="1030" y="27" text-anchor="end" class="mono" font-size="14" font-weight="800" fill="#F05A28">↗</text>
+  </g>
+</svg>

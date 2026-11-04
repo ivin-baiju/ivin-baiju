@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 68" width="100%" height="100%" role="img" aria-label="Current Curiosities Signal Strip">
+  <defs>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      @keyframes spinStar {
+        0% { transform: rotate(0deg) scale(1); }
+        50% { transform: rotate(180deg) scale(1.18); }
+        100% { transform: rotate(360deg) scale(1); }
+      }
+      @keyframes shimmerBar {
+        0% { transform: translateX(-1120px); }
+        100% { transform: translateX(1120px); }
+      }
+      .star1 { transform-origin: 418px 34px; animation: spinStar 8s linear infinite; }
+      .star2 { transform-origin: 572px 34px; animation: spinStar 8s linear infinite 1.5s; }
+      .star3 { transform-origin: 750px 34px; animation: spinStar 8s linear infinite 3s; }
+      .star4 { transform-origin: 924px 34px; animation: spinStar 8s linear infinite 4.5s; }
+      .sweep { animation: shimmerBar 5s linear infinite; }
+    </style>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F05A28" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F05A28" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F05A28" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1120" height="68" rx="8" fill="#1B1F24" stroke="#363D44" stroke-width="1.2"/>
+  <rect class="sweep" x="0" y="65" width="520" height="2" fill="url(#barGrad)"/>
+
+  <rect x="20" y="18" width="174" height="32" rx="4" fill="#252A30" stroke="#3E464F" stroke-width="1"/>
+  <circle cx="36" cy="34" r="3.5" fill="#F05A28"/>
+  <text x="48" y="38" class="mono" font-size="8.5" font-weight="800" fill="#BFC4C9" letter-spacing="1.6">CURRENT CURIOSITIES</text>
+
+  <text x="230" y="38" class="sans" font-size="11.5" font-weight="800" fill="#F0F2F4">Artificial Intelligence</text>
+  <text x="418" y="39" text-anchor="middle" class="mono star1" font-size="15" font-weight="800" fill="#F05A28">✳</text>
+
+  <text x="444" y="38" class="sans" font-size="11.5" font-weight="800" fill="#F0F2F4">Computer Vision</text>
+  <text x="572" y="39" text-anchor="middle" class="mono star2" font-size="15" font-weight="800" fill="#F05A28">✳</text>
+
+  <text x="598" y="38" class="sans" font-size="11.5" font-weight="800" fill="#F0F2F4">Systems Engineering</text>
+  <text x="750" y="39" text-anchor="middle" class="mono star3" font-size="15" font-weight="800" fill="#F05A28">✳</text>
+
+  <text x="776" y="38" class="sans" font-size="11.5" font-weight="800" fill="#F0F2F4">SLM Inference</text>
+  <text x="924" y="39" text-anchor="middle" class="mono star4" font-size="15" font-weight="800" fill="#F05A28">✳</text>
+
+  <text x="950" y="38" class="sans" font-size="11.5" font-weight="800" fill="#F0F2F4">Product Building</text>
+</svg>
