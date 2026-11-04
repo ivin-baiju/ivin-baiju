@@ -42,7 +42,7 @@
       <p>Full-stack, multi-tenant computer vision SaaS platform analysing images, videos, live webcams, and RTSP streams per frame — rebuilt from scratch as a Turborepo monorepo.</p>
       <ul>
         <li><b>Detection &amp; Tracking:</b> Calibrated Apache-2.0 <b>RT-DETRv2-R18vd</b> &amp; <b>YOLOS-Tiny ONNX</b> (+ SAHI 2×2 tiled pass) paired with <b>ByteTrack</b> (Alpha-Beta Kalman filter + 26-d HSV/Lab appearance Re-ID).</li>
-        <li><b>Perceptual Garment Colour Pipeline:</b> Elliptical foreground mask + 15% border-ring subtraction, $k$-means ($k=3$) in <b>CIELAB</b> space, and <b>CIEDE2000 ($\Delta E_{00}$)</b> matching across a 28-colour palette with upper-torso / lower-leg split.</li>
+        <li><b>Perceptual Garment Colour Pipeline:</b> Elliptical foreground mask + 15% border-ring subtraction, k-means (<code>k = 3</code>) in <b>CIELAB</b> space, and <b>CIEDE2000 (ΔE00)</b> matching across a 28-colour palette with upper-torso / lower-leg split.</li>
         <li><b>Measured Golden Telemetry:</b> <code>mAP@50: 91.43%</code> · <code>mAP@50:95: 85.14%</code> · <code>CIEDE2000 Acc: 85.71%</code> · <code>Person Count MAE: 0.00</code> · <code>60 FPS</code> WebGL2 + Canvas HUD.</li>
       </ul>
       <p>
