@@ -2,7 +2,7 @@
 
 <!-- ==================== 00. ANIMATED IVIN.IN HERO BANNER ==================== -->
 <a href="https://ivin.in">
-  <img src="./assets/hero-banner.svg?v=2" width="100%" alt="Ivin Baiju — Ideas into Intelligent Systems" />
+  <img src="./assets/ivin-hero-banner.svg" width="100%" alt="Ivin Baiju — Ideas into Intelligent Systems" />
 </a>
 
 <br/>
