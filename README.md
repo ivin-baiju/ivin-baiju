@@ -15,7 +15,7 @@
 [![Website ivin.in](https://img.shields.io/badge/%3C%2F%3E_ivin.in-LIVE_PORTFOLIO-F05A28?style=for-the-badge&labelColor=171A1E)](https://ivin.in)
 [![Visionlytics Live](https://img.shields.io/badge/VISIONLYTICS_v1.0-LIVE_SAAS_APP-8FBD9C?style=for-the-badge&labelColor=171A1E)](https://ivin-baiju.github.io/Visionlytics/)
 [![SLM Inference Engine](https://img.shields.io/badge/SLM_INFERENCE-48.3_TPS_M4_MPS-8EBAE0?style=for-the-badge&labelColor=171A1E)](https://github.com/ivin-baiju/Custom_SLM_Inference)
-[![SkyCommand ATC](https://img.shields.io/badge/ATC_SIMULATOR-LIVE_ADS--B_%26_3D-167D8D?style=for-the-badge&labelColor=171A1E)](https://github.com/ivin-baiju/ATC_Simulation)
+[![SkyCommand ATC](https://img.shields.io/badge/ATC_SIMULATOR-LIVE_ADS--B_%26_3D-167D8D?style=for-the-badge&labelColor=171A1E)](https://ivin.in/ATC_Simulation/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-in%2Fivin--baiju-C7A3DF?style=for-the-badge&labelColor=171A1E)](https://in.linkedin.com/in/ivin-baiju)
 [![X / Twitter](https://img.shields.io/badge/X_%2F_TWITTER-%40Gargantuaq1-E0C68A?style=for-the-badge&labelColor=171A1E)](https://x.com/Gargantuaq1)
 
@@ -85,7 +85,8 @@
         <li><b>Separation Assurance:</b> Spatial hash conflict detection with lookahead trajectory prediction, safety envelope overrides, and audio clearances.</li>
       </ul>
       <p>
-        <a href="https://github.com/ivin-baiju/ATC_Simulation"><b>Explore Repository &amp; Architecture ↗</b></a>
+        <a href="https://ivin.in/ATC_Simulation/"><b>Open Live App ↗</b></a> ·
+        <a href="https://github.com/ivin-baiju/ATC_Simulation"><b>Source Code &amp; Architecture ↗</b></a>
       </p>
     </td>
   </tr>
