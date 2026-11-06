@@ -15,6 +15,7 @@
 [![Website ivin.in](https://img.shields.io/badge/%3C%2F%3E_ivin.in-LIVE_PORTFOLIO-F05A28?style=for-the-badge&labelColor=171A1E)](https://ivin.in)
 [![Visionlytics Live](https://img.shields.io/badge/VISIONLYTICS_v1.0-LIVE_SAAS_APP-8FBD9C?style=for-the-badge&labelColor=171A1E)](https://ivin-baiju.github.io/Visionlytics/)
 [![SLM Inference Engine](https://img.shields.io/badge/SLM_INFERENCE-48.3_TPS_M4_MPS-8EBAE0?style=for-the-badge&labelColor=171A1E)](https://github.com/ivin-baiju/Custom_SLM_Inference)
+[![SkyCommand ATC](https://img.shields.io/badge/ATC_SIMULATOR-LIVE_ADS--B_%26_3D-167D8D?style=for-the-badge&labelColor=171A1E)](https://github.com/ivin-baiju/ATC_Simulation)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-in%2Fivin--baiju-C7A3DF?style=for-the-badge&labelColor=171A1E)](https://in.linkedin.com/in/ivin-baiju)
 [![X / Twitter](https://img.shields.io/badge/X_%2F_TWITTER-%40Gargantuaq1-E0C68A?style=for-the-badge&labelColor=171A1E)](https://x.com/Gargantuaq1)
 
@@ -75,13 +76,17 @@
       <p><a href="https://ivin.in/#work"><b>View on ivin.in ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>S / 003</code> · <a href="https://ivin.in/#work">ATC Simulation</a></h3>
-      <p><sub><b>AI · REAL-TIME AIRSPACE &amp; CONFLICT SIMULATION</b></sub></p>
-      <p>An AI air-traffic-control simulation concept: replay multi-aircraft flight corridors, inject close-call separation scenarios, detect trajectory conflicts, and evaluate autonomous controller instructions.</p>
+      <h3><code>S / 003</code> · <a href="https://github.com/ivin-baiju/ATC_Simulation">SkyCommand ATC &amp; FlightRadar</a></h3>
+      <p><sub><b>AUTONOMOUS AIR TRAFFIC CONTROL · LIVE ADS-B RADAR · THREE.JS 3D</b></sub></p>
+      <p>High-fidelity air traffic control &amp; FlightRadar-style terminal simulator tracking live global &amp; Indian airspace (VIDP, VABB, VOBL, VOMM, VECC, VOCL) with real-world liveries and deterministic conflict resolution.</p>
       <ul>
-        <li><b>Focus:</b> Multi-agent simulation, trajectory conflict detection, decision-support telemetry, and radar HUD visualization.</li>
+        <li><b>Live Surveillance:</b> Real-time ADS-B transponder streaming via OpenSky Network, zero-API-key Esri World Imagery satellite radar, and 6 Indian metropolitan hubs.</li>
+        <li><b>Tailored 3D Airframes:</b> Three.js WebGL inspection for A320neo, B737-800, B787 Dreamliner, A350-900, B777-300ER, and ATR 72 with authentic airline liveries (IndiGo, Air India, SpiceJet, Vistara, Akasa).</li>
+        <li><b>Separation Assurance:</b> Spatial hash conflict detection with lookahead trajectory prediction, safety envelope overrides, and audio clearances.</li>
       </ul>
-      <p><a href="https://ivin.in/#work"><b>View on ivin.in ↗</b></a></p>
+      <p>
+        <a href="https://github.com/ivin-baiju/ATC_Simulation"><b>Explore Repository &amp; Architecture ↗</b></a>
+      </p>
     </td>
   </tr>
 </table>
